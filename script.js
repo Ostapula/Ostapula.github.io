@@ -3,13 +3,6 @@ let shopList = document.getElementById('shopList');
 let inputField = document.getElementById('inputField');
 let clicked = false;
 
-let fr = new FileReader();
-fr.readAsText('list.txt'.file[0]);
-fr.onload = function(){
-    shopList.innerHTML = fr.result;
-};
-
-
 addButton.addEventListener('click', function(){
     var listAdd = document.createElement('li');
     // listAdd.classList.add('some variable');
