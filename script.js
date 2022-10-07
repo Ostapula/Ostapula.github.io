@@ -8,4 +8,10 @@ addButton.addEventListener('click', function(){
     listAdd.innerText = inputField.value;
     shopList.appendChild(listAdd);
     inputField.value = "";
+    listAdd.addEventListener('click', function(){
+        listAdd.style.textDecoration = "line-through";
+    })
+    listAdd.addEventListener('dblclick', function(){
+        shopList.removeChild(listAdd);
+    })
 })
