@@ -24,7 +24,7 @@ header, #mainContent {
 
 #mainContent input, #mainContent button {
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 3vh;
     border: none;
     background: white;
 }
