@@ -26,4 +26,11 @@ main {
     main {
         padding: 50%;
     }
+    #buttons {
+        display: flex;
+    }
+    #buttons button {
+        font-size: 25px;
+        margin: 10px;
+    }
 }
