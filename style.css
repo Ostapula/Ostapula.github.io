@@ -18,4 +18,11 @@ main {
     padding: 5px 10px;
     font-size: 40px;
 }
-
+@media only screen and (max-width: 500px) {
+    #main-text {
+        font-size: 50px;
+    }
+    main {
+        padding: 50%;
+    }
+}
