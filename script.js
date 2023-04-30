@@ -20,9 +20,10 @@ function yesPoop() {
 }
 
 function noPoop() {
-    document.getElementById("main-text").innerHTML = 'Шкода...';
+    document.getElementById("main-text").innerHTML = 'Шкода... Приходь коли покакаєш';
     document.getElementById("body").style.backgroundColor = 'white';
     poopBoolToday = false;
+    hideButtons();
     localStorage.setItem('poop', poopBoolToday.toString());
 }
 
